@@ -1,4 +1,4 @@
-
+ 
 
 p#categorie {
     background-color:black ;
@@ -60,9 +60,7 @@ div.separateur
  color: white;
  width: auto;
  text-align: center;
- text-align: center;
  background-color: #FFFFFF;
- width:80% ;
 }
 #positionRelative
 {
@@ -81,7 +79,6 @@ table
 
     color: white;
     background-color:  #FFFFFF;
-    color: white;
      padding-right:40px;
      margin-right: 0;
      width: 93%;
@@ -129,7 +126,7 @@ padding-top: 4px;
 padding-bottom: 4px;
 padding-left: 0;
 padding-right: 0;
-width: auto;
+
 text-align: center;
 margin-left: 2px;
 }
@@ -142,7 +139,7 @@ padding-bottom: 4px;
 color: black;
 border: 1px solid gray;
 margin: 0;
-padding: auto;
+
 }
 
 
@@ -260,9 +257,7 @@ table.tab_preparation
      width: 100%;
 }
 
-*{
-    overflow: auto;
-}
+
   }
 
   @media screen and (min-width: 800px) {
