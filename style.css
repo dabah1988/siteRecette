@@ -1,30 +1,10 @@
-body
-{
-   
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: gray;
-    padding: 5%;
-    
-}
+
 
 p#categorie {
     background-color:black ;
     color: white;
 }
 
-div.contenu
-{
-    background-color: rgb(255, 255, 255);
-    margin: 0px 0%  0px 0%;
-    padding: 30px;
-    font-size: 13px;
-    box-shadow: 15px 15px 10px C ;
-   
-  /*  min-width: 350px;*/
-    width: 100%;
- 
-
-}
 div.categorie_centre 
 {
   text-align: center;
@@ -165,13 +145,96 @@ margin: 0;
 padding: auto;
 }
 
+
+/*Pour les téléphones et  les tablettes*/
+@media screen and (max-width: 500px) {
+ body
+{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #3585CD;
+    padding: 2%;
+    
+}
+div.contenu,td , body
+{
+    font-size: 10px;
+}
+div.contenu
+{
+    background-color : #3585CD;
+    margin: 0px 0%  0% 0%; 
+    color: #FFFFFF;
+    font-weight: bold;
+    box-shadow: 5px 15px 10px 10px ;
+    width: 100%;
+}
 .td_gauche
 {
     width: 5%;
     padding: 8px;
-    background-color:#FFFFFF;
+    background-color:#3585CD;
     font-weight: bold;
-    color: #FFFFFF;   
+    color: white;   
+    border-radius: 50%;
+    margin-bottom: 20px;
+   
+   
+}
+
+.td_droite
+{
+    width: 80%;
+    padding: 5px;
+    text-align: left;
+    text-transform: lowercase;
+    margin-bottom: 20px;
+ 
+
+}
+table.tr_droite {
+    margin-bottom: 20px;  
+    min-height: 40px;
+    padding: 10px;  
+}
+
+table.tab_preparation
+{
+     width: 100%;
+}
+
+*{
+    overflow: auto;
+}
+  
+ }
+
+  @media screen and  (min-width: 700px) {
+    body
+    {
+       
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: gray;
+        padding: 5%;
+        
+    }
+    div.contenu
+    {
+        background-color: rgb(255, 255, 255);
+        margin: 0px 0%  0px 0%;
+        padding: 30px;
+        font-size: 13px;
+        box-shadow: 15px 15px 10px 10px ;
+        width: 100%;
+    }
+
+    .td_gauche
+{
+    width: 5%;
+    padding: 8px;
+    background-color:blueviolet;
+    font-weight: bold;
+    color: white;   
     border-radius: 50%;
     margin-bottom: 20px;
    
@@ -200,3 +263,13 @@ table.tab_preparation
 *{
     overflow: auto;
 }
+  }
+
+  @media screen and (min-width: 800px) {
+    div.contenu
+    {
+    width: 700px;
+    background-color: yellow;
+    }
+  
+  }
